@@ -1,7 +1,6 @@
 # NetStream: video-chat application
-> Chat application with **1 to 1** and **many to many** video functionality
-\newline
-> Uses [VueJS](https://vuejs.org),  [WebRTC](https://webrtc.org/start/),  [SocketIO](https://socket.io), [Vuex](https://vuex.vuejs.org),NodeJS and [Redis](https://github.com/NodeRedis/node_redis)
+> Chat application with **1 to 1** and **many to many** video functionality.
+>  Uses [VueJS](https://vuejs.org),  [WebRTC](https://webrtc.org/start/),  [SocketIO](https://socket.io), [Vuex](https://vuex.vuejs.org),NodeJS and [Redis](https://github.com/NodeRedis/node_redis)
 
 ## Quick start
 You must first install and use Redis on your computer. For Mac OS X, click [this](https://medium.com/@petehouston/install-and-config-redis-on-mac-os-x-via-homebrew-eb8df9a4f298). After Redis is operational:
