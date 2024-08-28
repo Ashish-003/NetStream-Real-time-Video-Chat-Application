@@ -24,7 +24,7 @@ npm run run:server
 Then visit http://localhost:8080 in your browser
 
 ## Horizontal scaling
-To test out the horizontal scaling we'll create 3 different instances. Each one running a unique nodeJS process serving the FE and exposing the API
+We will establish three distinct instances in order to verify the horizontal scaling. Every individual operating a distinct nodeJS process that serves the FE and exposes the API
 
 <p align="center">
   <img src="https://github.com/Ashish-003/NetStream-Real-time-Video-Chat-Application/blob/master/src/assets/local_env.png" alt="scaling" width="500" height="460"/>
@@ -40,5 +40,5 @@ docker-compose -f docker-compose.yml up
 
 ```
 
-The webapp will be exposed on http://localhost:3000, http://localhost:3001 and http://localhost:3002, each one with a different socket connection
+The webapp will be available at http://localhost:3000, http://localhost:3001, and http://localhost:3002, each with its own socket connection.
 
